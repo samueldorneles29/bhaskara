@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamão</title>
+</head>
+<body>
+    <label for="primeiro_numero">Number one:</label>
+    <input type="number" name="primeiro_numero" id="primeiro_numero">
+    <br><br>
+
+    <label for="segundo_numero">Number two:</label>
+    <input type="number" name="segundo_numero" id="segundo_numero">
+    <br><br>
+
+    <button type="button" onclick="soma()">somar</button>
+    <br><br>
+
+    <button type="button" onclick="subtrai()">subtrair</button>
+    <br><br>
+
+    <button type="button" onclick="multiplica()">multiplicar</button>
+    <br><br>
+
+    <button type="button" onclick="dividir()">dividir</button>
+    <br><br>
+
+    <button type="button" onclick="comparacao()">Comparação</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
